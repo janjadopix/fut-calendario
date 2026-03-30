@@ -6,76 +6,199 @@
     <title>Fut Calendário - Palmeiras</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background-color: #1a1a1a; color: #fff; font-family: Arial, sans-serif; }
+        body { background-color: #f5f5f5; color: #333; font-family: Arial, sans-serif; }
         header { background-color: #006437; padding: 20px; text-align: center; }
-        header h1 { font-size: 24px; color: #fff; }
-        .jogos { max-width: 600px; margin: 20px auto; padding: 0 15px; }
-        .jogo-card { background-color: #2a2a2a; border-left: 4px solid #006437; border-radius: 8px; padding: 15px; margin-bottom: 15px; }
-        .times { font-size: 18px; font-weight: bold; margin-bottom: 8px; }
-        .info { font-size: 14px; color: #aaa; margin-bottom: 4px; }
-        .campeonato { display: inline-block; background-color: #006437; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 12px; margin-top: 8px; }
+        header h1 { font-size: 22px; color: #fff; font-weight: bold; }
+        .titulo-jogos { font-size: 20px; font-weight: bold; padding: 20px 15px 10px; max-width: 500px; margin: 0 auto; }
+        .jogos { max-width: 500px; margin: 0 auto; padding: 0 15px 30px; }
+        .jogo-card { background-color: #fff; border-radius: 10px; padding: 15px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); border-left: 4px solid #006437; }
+        .times { display: flex; justify-content: space-between; align-items: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+        .versus { color: #aaa; font-size: 16px; }
+        .info { text-align: center; font-size: 13px; color: #666; margin-bottom: 3px; }
+        .campeonato { display: inline-block; background-color: #006437; color: #fff; padding: 3px 10px; border-radius: 4px; font-size: 11px; margin-top: 10px; }
     </style>
 </head>
 <body>
 <header>
-    <h1>📅 Fut Calendário - Palmeiras</h1>
+    <h1>🌿 Fut Calendário - Palmeiras</h1>
 </header>
+<div class="titulo-jogos">JOGOS</div>
 <div class="jogos">
     
     <div class="jogo-card">
-        <div class="times">⚽ PALMEIRAS X GRÊMIO</div>
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>GRÊMIO</span>
+        </div>
         <div class="info">📅 02/04 às 21H30</div>
         <div class="info">🏟️ Arena Crefisa Barueri</div>
         <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ BAHIA X PALMEIRAS</div>
+        <div class="times">
+            <span>BAHIA</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
         <div class="info">📅 05/04 às 19H30</div>
         <div class="info">🏟️ Arena Fonte Nova</div>
         <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ JUNIOR BARRANQUILLA-COL X PALMEIRAS</div>
+        <div class="times">
+            <span>JUNIOR BARRANQUILLA-COL</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
         <div class="info">📅 08/04 às 19H30</div>
         <div class="info">🏟️ a definir</div>
         <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ CORINTHIANS X PALMEIRAS</div>
+        <div class="times">
+            <span>CORINTHIANS</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
         <div class="info">📅 A definir às A definir</div>
         <div class="info">🏟️ Neo Química Arena</div>
         <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ PALMEIRAS X SPORTING CRISTAL-PER</div>
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>SPORTING CRISTAL-PER</span>
+        </div>
         <div class="info">📅 16/04 às 19H00</div>
         <div class="info">🏟️ Allianz Parque</div>
         <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ PALMEIRAS X ATHLETICO-PR</div>
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>ATHLETICO-PR</span>
+        </div>
         <div class="info">📅 A definir às A definir</div>
         <div class="info">🏟️ Allianz Parque</div>
         <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ RED BULL BRAGANTINO X PALMEIRAS</div>
+        <div class="times">
+            <span>RED BULL BRAGANTINO</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
         <div class="info">📅 A definir às A definir</div>
         <div class="info">🏟️ Cícero de Souza Marques</div>
         <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
     <div class="jogo-card">
-        <div class="times">⚽ CERRO PORTEÑO-PAR X PALMEIRAS</div>
+        <div class="times">
+            <span>CERRO PORTEÑO-PAR</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
         <div class="info">📅 29/04 às 21H30</div>
         <div class="info">🏟️ a definir</div>
         <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>SANTOS</span>
+        </div>
+        <div class="info">📅 A definir às A definir</div>
+        <div class="info">🏟️ Allianz Parque</div>
+        <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>SPORTING CRISTAL-PER</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
+        <div class="info">📅 05/05 às 19H00</div>
+        <div class="info">🏟️ Nacional do Peru</div>
+        <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>REMO</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
+        <div class="info">📅 A definir às A definir</div>
+        <div class="info">🏟️ Mangueirão</div>
+        <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>CRUZEIRO</span>
+        </div>
+        <div class="info">📅 A definir às A definir</div>
+        <div class="info">🏟️ Allianz Parque</div>
+        <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>CERRO PORTEÑO-PAR</span>
+        </div>
+        <div class="info">📅 20/05 às 21H30</div>
+        <div class="info">🏟️ Allianz Parque</div>
+        <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>FLAMENGO</span>
+            <span class="versus">X</span>
+            <span>PALMEIRAS</span>
+        </div>
+        <div class="info">📅 A definir às A definir</div>
+        <div class="info">🏟️ Maracanã</div>
+        <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>JUNIOR BARRANQUILLA-COL</span>
+        </div>
+        <div class="info">📅 28/05 às 19H00</div>
+        <div class="info">🏟️ Allianz Parque</div>
+        <span class="campeonato">LIBERTADORES DA AMÉRICA 2026</span>
+    </div>
+    
+    <div class="jogo-card">
+        <div class="times">
+            <span>PALMEIRAS</span>
+            <span class="versus">X</span>
+            <span>CHAPECOENSE</span>
+        </div>
+        <div class="info">📅 A definir às A definir</div>
+        <div class="info">🏟️ Allianz Parque</div>
+        <span class="campeonato">BRASILEIRÃO SÉRIE A 2026</span>
     </div>
     
 </div>

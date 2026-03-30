@@ -57,9 +57,17 @@ driver.quit()
 # gera os cards HTML
 cards = ''
 for jogo in todos_jogos:
+    times = jogo["times"].split(' X ')
+    time_casa = times[0] if len(times) > 1 else jogo["times"]
+    time_fora = times[1] if len(times) > 1 else ''
+
     cards += f'''
     <div class="jogo-card">
-        <div class="times">⚽ {jogo["times"]}</div>
+        <div class="times">
+            <span>{time_casa}</span>
+            <span class="versus">X</span>
+            <span>{time_fora}</span>
+        </div>
         <div class="info">📅 {jogo["data"]} às {jogo["hora"]}</div>
         <div class="info">🏟️ {jogo["estadio"]}</div>
         <span class="campeonato">{jogo["campeonato"]}</span>
@@ -75,20 +83,23 @@ html = f'''<!DOCTYPE html>
     <title>Fut Calendário - Palmeiras</title>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{ background-color: #1a1a1a; color: #fff; font-family: Arial, sans-serif; }}
+        body {{ background-color: #f5f5f5; color: #333; font-family: Arial, sans-serif; }}
         header {{ background-color: #006437; padding: 20px; text-align: center; }}
-        header h1 {{ font-size: 24px; color: #fff; }}
-        .jogos {{ max-width: 600px; margin: 20px auto; padding: 0 15px; }}
-        .jogo-card {{ background-color: #2a2a2a; border-left: 4px solid #006437; border-radius: 8px; padding: 15px; margin-bottom: 15px; }}
-        .times {{ font-size: 18px; font-weight: bold; margin-bottom: 8px; }}
-        .info {{ font-size: 14px; color: #aaa; margin-bottom: 4px; }}
-        .campeonato {{ display: inline-block; background-color: #006437; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 12px; margin-top: 8px; }}
+        header h1 {{ font-size: 22px; color: #fff; font-weight: bold; }}
+        .titulo-jogos {{ font-size: 20px; font-weight: bold; padding: 20px 15px 10px; max-width: 500px; margin: 0 auto; }}
+        .jogos {{ max-width: 500px; margin: 0 auto; padding: 0 15px 30px; }}
+        .jogo-card {{ background-color: #fff; border-radius: 10px; padding: 15px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); border-left: 4px solid #006437; }}
+        .times {{ display: flex; justify-content: space-between; align-items: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; }}
+        .versus {{ color: #aaa; font-size: 16px; }}
+        .info {{ text-align: center; font-size: 13px; color: #666; margin-bottom: 3px; }}
+        .campeonato {{ display: inline-block; background-color: #006437; color: #fff; padding: 3px 10px; border-radius: 4px; font-size: 11px; margin-top: 10px; }}
     </style>
 </head>
 <body>
 <header>
-    <h1>📅 Fut Calendário - Palmeiras</h1>
+    <h1>🌿 Fut Calendário - Palmeiras</h1>
 </header>
+<div class="titulo-jogos">JOGOS</div>
 <div class="jogos">
     {cards}
 </div>
