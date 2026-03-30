@@ -1,0 +1,146 @@
+[
+  {
+    "times": "PALMEIRAS X GRÊMIO",
+    "data": "02/04",
+    "hora": "21H30",
+    "estadio": "Arena Crefisa Barueri",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/gremio.png"
+  },
+  {
+    "times": "BAHIA X PALMEIRAS",
+    "data": "05/04",
+    "hora": "19H30",
+    "estadio": "Arena Fonte Nova",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/bahia.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "JUNIOR BARRANQUILLA-COL X PALMEIRAS",
+    "data": "08/04",
+    "hora": "19H30",
+    "estadio": "a definir",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/ESCUDO-JUNIOR-SIN-ESTRELLAS.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "CORINTHIANS X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Neo Química Arena",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "PALMEIRAS X SPORTING CRISTAL-PER",
+    "data": "16/04",
+    "hora": "19H00",
+    "estadio": "Allianz Parque",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/sporting-cristal.png"
+  },
+  {
+    "times": "PALMEIRAS X ATHLETICO-PR",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/athletico-pr.png"
+  },
+  {
+    "times": "RED BULL BRAGANTINO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Cícero de Souza Marques",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2020/01/red-bull-bragantino.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "CERRO PORTEÑO-PAR X PALMEIRAS",
+    "data": "29/04",
+    "hora": "21H30",
+    "estadio": "a definir",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/cerro-porteno-par.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "PALMEIRAS X SANTOS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+  },
+  {
+    "times": "SPORTING CRISTAL-PER X PALMEIRAS",
+    "data": "05/05",
+    "hora": "19H00",
+    "estadio": "Nacional do Peru",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/sporting-cristal.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "REMO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Mangueirão",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/remo-5.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "PALMEIRAS X CRUZEIRO",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/03/cruzeiro-1.png"
+  },
+  {
+    "times": "PALMEIRAS X CERRO PORTEÑO-PAR",
+    "data": "20/05",
+    "hora": "21H30",
+    "estadio": "Allianz Parque",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/cerro-porteno-par.png"
+  },
+  {
+    "times": "FLAMENGO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Maracanã",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "times": "PALMEIRAS X JUNIOR BARRANQUILLA-COL",
+    "data": "28/05",
+    "hora": "19H00",
+    "estadio": "Allianz Parque",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/ESCUDO-JUNIOR-SIN-ESTRELLAS.png"
+  },
+  {
+    "times": "PALMEIRAS X CHAPECOENSE",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/chapecoense.png"
+  }
+]
