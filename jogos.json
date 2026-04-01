@@ -1,5 +1,6 @@
 [
   {
+    "time_principal": "PALMEIRAS",
     "times": "PALMEIRAS X GRÊMIO",
     "data": "02/04",
     "hora": "21H30",
@@ -9,6 +10,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/gremio.png"
   },
   {
+    "time_principal": "PALMEIRAS",
     "times": "BAHIA X PALMEIRAS",
     "data": "05/04",
     "hora": "19H30",
@@ -18,6 +20,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
   },
   {
+    "time_principal": "PALMEIRAS",
     "times": "JUNIOR BARRANQUILLA-COL X PALMEIRAS",
     "data": "08/04",
     "hora": "19H30",
@@ -27,15 +30,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
   },
   {
-    "times": "CORINTHIANS X PALMEIRAS",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Neo Química Arena",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
-  },
-  {
+    "time_principal": "PALMEIRAS",
     "times": "PALMEIRAS X SPORTING CRISTAL-PER",
     "data": "16/04",
     "hora": "19H00",
@@ -45,24 +40,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/sporting-cristal.png"
   },
   {
-    "times": "PALMEIRAS X ATHLETICO-PR",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Allianz Parque",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/athletico-pr.png"
-  },
-  {
-    "times": "RED BULL BRAGANTINO X PALMEIRAS",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Cícero de Souza Marques",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2020/01/red-bull-bragantino.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
-  },
-  {
+    "time_principal": "PALMEIRAS",
     "times": "CERRO PORTEÑO-PAR X PALMEIRAS",
     "data": "29/04",
     "hora": "21H30",
@@ -72,15 +50,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
   },
   {
-    "times": "PALMEIRAS X SANTOS",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Allianz Parque",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
-  },
-  {
+    "time_principal": "PALMEIRAS",
     "times": "SPORTING CRISTAL-PER X PALMEIRAS",
     "data": "05/05",
     "hora": "19H00",
@@ -90,24 +60,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
   },
   {
-    "times": "REMO X PALMEIRAS",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Mangueirão",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/remo-5.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
-  },
-  {
-    "times": "PALMEIRAS X CRUZEIRO",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Allianz Parque",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/03/cruzeiro-1.png"
-  },
-  {
+    "time_principal": "PALMEIRAS",
     "times": "PALMEIRAS X CERRO PORTEÑO-PAR",
     "data": "20/05",
     "hora": "21H30",
@@ -117,15 +70,7 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/cerro-porteno-par.png"
   },
   {
-    "times": "FLAMENGO X PALMEIRAS",
-    "data": "A definir",
-    "hora": "A definir",
-    "estadio": "Maracanã",
-    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
-  },
-  {
+    "time_principal": "PALMEIRAS",
     "times": "PALMEIRAS X JUNIOR BARRANQUILLA-COL",
     "data": "28/05",
     "hora": "19H00",
@@ -135,6 +80,77 @@
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/ESCUDO-JUNIOR-SIN-ESTRELLAS.png"
   },
   {
+    "time_principal": "PALMEIRAS",
+    "times": "CORINTHIANS X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Neo Química Arena",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "PALMEIRAS X SANTOS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "REMO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Mangueirão",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/remo-5.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "PALMEIRAS X CRUZEIRO",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/03/cruzeiro-1.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "FLAMENGO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Maracanã",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "PALMEIRAS X ATHLETICO-PR",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Allianz Parque",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/athletico-pr.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
+    "times": "RED BULL BRAGANTINO X PALMEIRAS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Cícero de Souza Marques",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2020/01/red-bull-bragantino.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+  },
+  {
+    "time_principal": "PALMEIRAS",
     "times": "PALMEIRAS X CHAPECOENSE",
     "data": "A definir",
     "hora": "A definir",
@@ -142,5 +158,135 @@
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
     "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
     "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/chapecoense.png"
+  },
+  {
+    "time_principal": "FLAMENGO",
+    "times": "FLAMENGO X VASCO",
+    "data": "06/04",
+    "hora": "16H00",
+    "estadio": "Maracanã",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vasco_da_Gama_Cruz_de_Malta.svg/1200px-Vasco_da_Gama_Cruz_de_Malta.svg.png"
+  },
+  {
+    "time_principal": "FLAMENGO",
+    "times": "BOTAFOGO X FLAMENGO",
+    "data": "13/04",
+    "hora": "20H00",
+    "estadio": "Estádio Nilton Santos",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png"
+  },
+  {
+    "time_principal": "FLAMENGO",
+    "times": "FLAMENGO X ATLÉTICO-MG",
+    "data": "20/04",
+    "hora": "18H30",
+    "estadio": "Maracanã",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Atletico_mineiro_galo.png/240px-Atletico_mineiro_galo.png"
+  },
+  {
+    "time_principal": "FLAMENGO",
+    "times": "FLAMENGO X OLIMPIA-PAR",
+    "data": "24/04",
+    "hora": "21H30",
+    "estadio": "Maracanã",
+    "campeonato": "LIBERTADORES DA AMÉRICA 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Club_Olimpia_logo.svg/1200px-Club_Olimpia_logo.svg.png"
+  },
+  {
+    "time_principal": "FLAMENGO",
+    "times": "SÃO PAULO X FLAMENGO",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "MorumBIS",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png"
+  },
+  {
+    "time_principal": "SÃO PAULO",
+    "times": "SÃO PAULO X CORINTHIANS",
+    "data": "05/04",
+    "hora": "16H00",
+    "estadio": "MorumBIS",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png"
+  },
+  {
+    "time_principal": "SÃO PAULO",
+    "times": "ATLÉTICO-MG X SÃO PAULO",
+    "data": "12/04",
+    "hora": "18H30",
+    "estadio": "Arena MRV",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Atletico_mineiro_galo.png/240px-Atletico_mineiro_galo.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png"
+  },
+  {
+    "time_principal": "SÃO PAULO",
+    "times": "SÃO PAULO X TALLERES-ARG",
+    "data": "17/04",
+    "hora": "21H30",
+    "estadio": "MorumBIS",
+    "campeonato": "SUL-AMERICANA 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Club_Atlético_Talleres_logo.svg/1200px-Club_Atlético_Talleres_logo.svg.png"
+  },
+  {
+    "time_principal": "SÃO PAULO",
+    "times": "SÃO PAULO X BOTAFOGO",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "MorumBIS",
+    "campeonato": "BRASILEIRÃO SÉRIE A 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"
+  },
+  {
+    "time_principal": "SANTOS",
+    "times": "SANTOS X SPORT",
+    "data": "05/04",
+    "hora": "19H00",
+    "estadio": "Vila Belmiro",
+    "campeonato": "BRASILEIRÃO SÉRIE B 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sport_Club_do_Recife.png/240px-Sport_Club_do_Recife.png"
+  },
+  {
+    "time_principal": "SANTOS",
+    "times": "CEARÁ X SANTOS",
+    "data": "12/04",
+    "hora": "19H00",
+    "estadio": "Arena Castelão",
+    "campeonato": "BRASILEIRÃO SÉRIE B 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cear%C3%A1_Sporting_Club_logo.svg/1200px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+  },
+  {
+    "time_principal": "SANTOS",
+    "times": "SANTOS X GUARANI",
+    "data": "19/04",
+    "hora": "17H00",
+    "estadio": "Vila Belmiro",
+    "campeonato": "BRASILEIRÃO SÉRIE B 2026",
+    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png",
+    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Guarani_FC_logo.svg/1200px-Guarani_FC_logo.svg.png"
+  },
+  {
+    "time_principal": "SANTOS",
+    "times": "AVAÍ X SANTOS",
+    "data": "A definir",
+    "hora": "A definir",
+    "estadio": "Ressacada",
+    "campeonato": "BRASILEIRÃO SÉRIE B 2026",
+    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ava%C3%AD_FC_logo.svg/1200px-Ava%C3%AD_FC_logo.svg.png",
+    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
   }
 ]

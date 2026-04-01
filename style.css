@@ -1,102 +1,370 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ===========================
+   RESET & VARIÁVEIS
+=========================== */
+*, *::before, *::after {
+  margin: 0; padding: 0; box-sizing: border-box;
 }
+
+:root {
+  --bg: #0d0d0d;
+  --bg2: #161616;
+  --bg3: #1e1e1e;
+  --border: rgba(255,255,255,0.07);
+  --text: #f0f0f0;
+  --muted: #888;
+  --radius: 12px;
+
+  /* Cores por time */
+  --cor-PALMEIRAS: #00a651;
+  --cor-FLAMENGO: #e8112d;
+  --cor-SAO-PAULO: #e8112d;
+  --cor-SANTOS: #000000;
+
+  /* Cores campeonato */
+  --cor-brasileirao: #2563eb;
+  --cor-libertadores: #f59e0b;
+  --cor-sulamericana: #10b981;
+}
+
+html { scroll-behavior: smooth; }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
-    font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Barlow', sans-serif;
+  min-height: 100vh;
 }
 
+/* ===========================
+   HEADER
+=========================== */
 header {
-    background-color: #006437;
-    padding: 20px;
-    text-align: center;
+  background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 20px 22px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% -20%, rgba(255,255,255,0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header-icon { font-size: 28px; }
 
 header h1 {
-    font-size: 22px;
-    color: #fff;
-    font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  line-height: 1;
 }
 
-.titulo-jogos {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 15px 10px;
-    max-width: 500px;
-    margin: 0 auto;
+header h1 .ano {
+  color: var(--muted);
 }
 
+.header-sub {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===========================
+   PRÓXIMO JOGO DESTAQUE
+=========================== */
+.proximo-destaque {
+  max-width: 520px;
+  margin: 24px auto 0;
+  padding: 0 16px;
+}
+
+.destaque-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.destaque-card {
+  border-radius: var(--radius);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.05); }
+  50% { box-shadow: 0 0 30px 4px rgba(255,255,255,0.08); }
+}
+
+.destaque-card::before {
+  content: 'PRÓXIMO';
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
+
+.destaque-card .times {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.destaque-card .time img {
+  width: 48px;
+  height: 48px;
+}
+
+.destaque-card .time span {
+  font-size: 13px;
+}
+
+.destaque-card .versus {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  color: rgba(255,255,255,0.3);
+}
+
+.destaque-card .info {
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+}
+
+/* ===========================
+   FILTROS
+=========================== */
+.filtros-wrapper {
+  max-width: 520px;
+  margin: 20px auto 0;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filtros-times,
+.filtros-camp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filtro-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--bg3);
+  color: var(--muted);
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.filtro-btn:hover {
+  border-color: rgba(255,255,255,0.2);
+  color: var(--text);
+}
+
+.filtro-btn.ativo {
+  color: #fff;
+  border-color: transparent;
+}
+
+/* cores ativas por time */
+.filtro-btn.ativo[data-time="PALMEIRAS"]   { background: var(--cor-PALMEIRAS); }
+.filtro-btn.ativo[data-time="FLAMENGO"]    { background: var(--cor-FLAMENGO); }
+.filtro-btn.ativo[data-time="SÃO PAULO"]   { background: #cc0000; }
+.filtro-btn.ativo[data-time="SANTOS"]      { background: #333; border: 1px solid #555; }
+.filtro-btn.ativo[data-time="TODOS"]       { background: #333; }
+
+/* cores ativas por campeonato */
+.filtro-btn.ativo[data-camp="TODOS"]                    { background: #333; }
+.filtro-btn.ativo[data-camp="BRASILEIRÃO SÉRIE A 2026"] { background: var(--cor-brasileirao); }
+.filtro-btn.ativo[data-camp="BRASILEIRÃO SÉRIE B 2026"] { background: #7c3aed; }
+.filtro-btn.ativo[data-camp="LIBERTADORES DA AMÉRICA 2026"] { background: var(--cor-libertadores); color: #000; }
+.filtro-btn.ativo[data-camp="SUL-AMERICANA 2026"]       { background: var(--cor-sulamericana); }
+
+/* ===========================
+   LISTA DE JOGOS
+=========================== */
 .jogos {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 0 15px 30px;
+  max-width: 520px;
+  margin: 16px auto 0;
+  padding: 0 16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+/* ===========================
+   CARD DE JOGO
+=========================== */
 .jogo-card {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 12px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    border-left: 4px solid #006437;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s, border-color 0.15s;
+  animation: fadeIn 0.3s ease forwards;
+  opacity: 0;
 }
 
+@keyframes fadeIn {
+  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(8px); }
+}
+
+.jogo-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.13);
+}
+
+/* barra lateral colorida por time */
+.jogo-card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.jogo-card[data-time="PALMEIRAS"]::before  { background: var(--cor-PALMEIRAS); }
+.jogo-card[data-time="FLAMENGO"]::before   { background: var(--cor-FLAMENGO); }
+.jogo-card[data-time="SÃO PAULO"]::before  { background: #cc0000; }
+.jogo-card[data-time="SANTOS"]::before     { background: #888; }
+
+/* ===========================
+   TIMES DENTRO DO CARD
+=========================== */
 .times {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
 }
 
 .time {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
 }
 
 .time img {
-    width: 35px;
-    height: 35px;
-    object-fit: contain;
-    flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.5));
 }
 
 .time span {
-    font-size: 14px;
-    font-weight: bold;
-    word-break: break-word;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  word-break: break-word;
 }
 
 .direita {
-    flex-direction: row-reverse;
-    text-align: right;
+  flex-direction: row-reverse;
+  text-align: right;
 }
 
 .versus {
-    color: #aaa;
-    font-size: 16px;
-    flex-shrink: 0;
-    padding: 0 5px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  color: rgba(255,255,255,0.2);
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+
+/* ===========================
+   INFO & CAMPEONATO
+=========================== */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .info {
-    font-size: 13px;
-    color: #666;
-    margin-bottom: 3px;
+  font-size: 12px;
+  color: var(--muted);
 }
 
-.campeonato {
-    display: inline-block;
-    background-color: #006437;
-    color: #fff;
-    padding: 3px 10px;
-    border-radius: 4px;
-    font-size: 11px;
-    margin-top: 8px;
+.badge-camp {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.badge-brasileirao-a  { background: var(--cor-brasileirao); }
+.badge-brasileirao-b  { background: #7c3aed; }
+.badge-libertadores   { background: var(--cor-libertadores); color: #000; }
+.badge-sulamericana   { background: var(--cor-sulamericana); }
+
+/* ===========================
+   VAZIO
+=========================== */
+.vazio {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+@media (max-width: 400px) {
+  header h1 { font-size: 28px; }
+  .time span { font-size: 11px; }
 }
