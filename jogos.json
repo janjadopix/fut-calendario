@@ -6,8 +6,8 @@
     "hora": "21H30",
     "estadio": "Arena Crefisa Barueri",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/gremio.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1963/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -16,18 +16,18 @@
     "hora": "19H30",
     "estadio": "Arena Fonte Nova",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/bahia.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1982/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
     "times": "JUNIOR BARRANQUILLA-COL X PALMEIRAS",
     "data": "08/04",
     "hora": "19H30",
-    "estadio": "a definir",
+    "estadio": "A definir",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/ESCUDO-JUNIOR-SIN-ESTRELLAS.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1756/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -36,18 +36,18 @@
     "hora": "19H00",
     "estadio": "Allianz Parque",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/sporting-cristal.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1836/image"
   },
   {
     "time_principal": "PALMEIRAS",
     "times": "CERRO PORTEÑO-PAR X PALMEIRAS",
     "data": "29/04",
     "hora": "21H30",
-    "estadio": "a definir",
+    "estadio": "A definir",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/cerro-porteno-par.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1823/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -56,8 +56,8 @@
     "hora": "19H00",
     "estadio": "Nacional do Peru",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/sporting-cristal.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1836/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -66,8 +66,8 @@
     "hora": "21H30",
     "estadio": "Allianz Parque",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/cerro-porteno-par.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1823/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -76,8 +76,8 @@
     "hora": "19H00",
     "estadio": "Allianz Parque",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/ESCUDO-JUNIOR-SIN-ESTRELLAS.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1756/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -86,8 +86,8 @@
     "hora": "A definir",
     "estadio": "Neo Química Arena",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1957/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -96,8 +96,8 @@
     "hora": "A definir",
     "estadio": "Allianz Parque",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1968/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -106,8 +106,8 @@
     "hora": "A definir",
     "estadio": "Mangueirão",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/remo-5.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/28566/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -116,8 +116,8 @@
     "hora": "A definir",
     "estadio": "Allianz Parque",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/03/cruzeiro-1.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1967/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -126,8 +126,8 @@
     "hora": "A definir",
     "estadio": "Maracanã",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1966/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -136,8 +136,8 @@
     "hora": "A definir",
     "estadio": "Allianz Parque",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/athletico-pr.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1969/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -146,8 +146,8 @@
     "hora": "A definir",
     "estadio": "Cícero de Souza Marques",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2020/01/red-bull-bragantino.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1975/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1961/image"
   },
   {
     "time_principal": "PALMEIRAS",
@@ -156,8 +156,8 @@
     "hora": "A definir",
     "estadio": "Allianz Parque",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/logo-palmeiras-80-teste-2.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/09/chapecoense.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1961/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1986/image"
   },
   {
     "time_principal": "FLAMENGO",
@@ -166,8 +166,8 @@
     "hora": "16H00",
     "estadio": "Maracanã",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vasco_da_Gama_Cruz_de_Malta.svg/1200px-Vasco_da_Gama_Cruz_de_Malta.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1966/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1974/image"
   },
   {
     "time_principal": "FLAMENGO",
@@ -176,8 +176,8 @@
     "hora": "20H00",
     "estadio": "Estádio Nilton Santos",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1958/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1966/image"
   },
   {
     "time_principal": "FLAMENGO",
@@ -186,8 +186,8 @@
     "hora": "18H30",
     "estadio": "Maracanã",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Atletico_mineiro_galo.png/240px-Atletico_mineiro_galo.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1966/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1977/image"
   },
   {
     "time_principal": "FLAMENGO",
@@ -196,8 +196,8 @@
     "hora": "21H30",
     "estadio": "Maracanã",
     "campeonato": "LIBERTADORES DA AMÉRICA 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Club_Olimpia_logo.svg/1200px-Club_Olimpia_logo.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1966/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1822/image"
   },
   {
     "time_principal": "FLAMENGO",
@@ -206,8 +206,8 @@
     "hora": "A definir",
     "estadio": "MorumBIS",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/flamengo-55x50-1.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1981/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1966/image"
   },
   {
     "time_principal": "SÃO PAULO",
@@ -216,8 +216,8 @@
     "hora": "16H00",
     "estadio": "MorumBIS",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/corinthians-15-sep-2-1.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1981/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1957/image"
   },
   {
     "time_principal": "SÃO PAULO",
@@ -226,8 +226,8 @@
     "hora": "18H30",
     "estadio": "Arena MRV",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Atletico_mineiro_galo.png/240px-Atletico_mineiro_galo.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1977/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1981/image"
   },
   {
     "time_principal": "SÃO PAULO",
@@ -236,8 +236,8 @@
     "hora": "21H30",
     "estadio": "MorumBIS",
     "campeonato": "SUL-AMERICANA 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Club_Atlético_Talleres_logo.svg/1200px-Club_Atlético_Talleres_logo.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1981/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1827/image"
   },
   {
     "time_principal": "SÃO PAULO",
@@ -246,8 +246,8 @@
     "hora": "A definir",
     "estadio": "MorumBIS",
     "campeonato": "BRASILEIRÃO SÉRIE A 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg/1200px-Escudo_do_S%C3%A3o_Paulo_Futebol_Clube.svg.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1981/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1958/image"
   },
   {
     "time_principal": "SANTOS",
@@ -256,8 +256,8 @@
     "hora": "19H00",
     "estadio": "Vila Belmiro",
     "campeonato": "BRASILEIRÃO SÉRIE B 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sport_Club_do_Recife.png/240px-Sport_Club_do_Recife.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1968/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1959/image"
   },
   {
     "time_principal": "SANTOS",
@@ -266,8 +266,8 @@
     "hora": "19H00",
     "estadio": "Arena Castelão",
     "campeonato": "BRASILEIRÃO SÉRIE B 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cear%C3%A1_Sporting_Club_logo.svg/1200px-Cear%C3%A1_Sporting_Club_logo.svg.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/2001/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1968/image"
   },
   {
     "time_principal": "SANTOS",
@@ -276,8 +276,8 @@
     "hora": "17H00",
     "estadio": "Vila Belmiro",
     "campeonato": "BRASILEIRÃO SÉRIE B 2026",
-    "escudo_casa": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png",
-    "escudo_fora": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Guarani_FC_logo.svg/1200px-Guarani_FC_logo.svg.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/1968/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1972/image"
   },
   {
     "time_principal": "SANTOS",
@@ -286,7 +286,7 @@
     "hora": "A definir",
     "estadio": "Ressacada",
     "campeonato": "BRASILEIRÃO SÉRIE B 2026",
-    "escudo_casa": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ava%C3%AD_FC_logo.svg/1200px-Ava%C3%AD_FC_logo.svg.png",
-    "escudo_fora": "https://www.palmeiras.com.br/wp-content/uploads/2019/08/santos-15.png"
+    "escudo_casa": "https://api.sofascore.com/api/v1/team/7315/image",
+    "escudo_fora": "https://api.sofascore.com/api/v1/team/1968/image"
   }
 ]
